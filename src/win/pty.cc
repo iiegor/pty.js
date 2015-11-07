@@ -148,7 +148,7 @@ static std::wstring get_shell_path(std::wstring filename)  {
 * 2) Install win32pipe
 x86) http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/pywin32-218.win32-py2.7.exe/download
 x64) http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/pywin32-218.win-amd64-py2.7.exe/download
-* 3) Start deps/winpty/misc/DebugServer.py (Before you start node)
+* 3) Start vendor/winpty/misc/DebugServer.py (Before you start node)
 *
 * Then you'll see output from winpty-agent.exe.
 *

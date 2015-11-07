@@ -9,11 +9,11 @@
         # "I disabled those warnings because of winpty" - @peters (GH-40)
         'msvs_disabled_warnings': [ 4506, 4530 ],
         'include_dirs' : [
-          'deps/winpty/include',
+          'vendor/winpty/include',
         ],
         'dependencies' : [
-          'deps/winpty/winpty.gyp:winpty-agent',
-          'deps/winpty/winpty.gyp:winpty',
+          'vendor/winpty/winpty.gyp:winpty-agent',
+          'vendor/winpty/winpty.gyp:winpty',
         ],
         'sources' : [
           'src/win/pty.cc'
