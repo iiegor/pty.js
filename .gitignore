@@ -1,4 +1,4 @@
-deps/winpty/Default/*
+vendor/winpty/Default/*
 Default/*
 node_modules/*
 out/*
