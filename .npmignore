@@ -6,5 +6,5 @@ Makefile.gyp
 *.Makefile
 *.target.gyp.mk
 node_modules/
-test/
+spec/
 *.node
