@@ -27,6 +27,6 @@
     "nan": "2.3.3"
   },
   "devDependencies": {
-    "mocha": "~2.4.2"
+    "mocha": "~2.5.1"
   }
 }
