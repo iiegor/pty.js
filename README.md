@@ -13,7 +13,7 @@ A fork of [pty.js](https://github.com/chjj/pty.js) to have a more updated module
 ###### Type: Array
 
 ##### opts
-###### Type: object
+###### Type: Object
 
 Example:
 ```sh
