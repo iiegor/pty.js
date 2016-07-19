@@ -4,7 +4,7 @@ A fork of [pty.js](https://github.com/chjj/pty.js) to have a more updated module
 
 ## API
 
-#### spawn(*command[, args]*)
+#### spawn(*command[, args, opts]*)
 
 ##### command
 ###### Type: String
@@ -12,4 +12,14 @@ A fork of [pty.js](https://github.com/chjj/pty.js) to have a more updated module
 ##### args
 ###### Type: Array
 
-Example: ``ptyw.spawn('java', ['-version']) ``
+##### opts
+###### Type: object
+
+Example:
+```sh
+ptyw.spawn('java', ['-version'], {
+  cols: 80,
+  rows: 30,
+  env: process.env
+});
+```
