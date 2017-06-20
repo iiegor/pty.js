@@ -44,7 +44,7 @@
 #else
 #include <util.h>
 #endif
-#elif defined(__FreeBSD__)
+#elif defined(__FreeBSD__) || defined(__DragonFly__)
 #include <libutil.h>
 #elif defined(__sun)
 #include <stropts.h> /* for I_PUSH */
